@@ -111,7 +111,9 @@ Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (
 •	You can also modify specific behaviours like bridging, cooling, and acceleration of the printer extruder.
 
 ### Step 5: Slice the Model
+
 <br />
+
 Once the print settings are set, the next step is to slice the model.
 •	After making all your adjustments, click the **“Slice plate”** button located in the upper-right corner.
 •	Bambu Studio will now generate the **G-code file** based on the slicing settings you’ve chosen.
@@ -121,7 +123,9 @@ Once the print settings are set, the next step is to slice the model.
 •	Ensure that the supports and infill look correct, and verify that the outer shell is well defined.
 
 ### Step 6: Export the G-code for Printing
+
 <br />
+
 Once you are happy with the sliced model and settings, you can generate the file for the **Bambu Lab X1 printer**.
 **Export the G-code as a file:**
 •	In the upper-right corner, select the option and **“Export plate sliced file”** and you’ll be prompted to save the G-code file.
@@ -131,7 +135,9 @@ Once you are happy with the sliced model and settings, you can generate the file
 •	If your printer is connected to the network (Wi-Fi/LAN), you can upload the G-code file directly from Bambu Studio by selecting the on **“Print plate”** or **“Send”** option instead of manually transferring the file.
 
 ### Step 7: Start the Print on Bambu Lab X1
+
 <br />
+
 •	Ensure that the **Bambu Lab X1** printer is properly set up, with the filament loaded and the print bed cleaned.
 •	Using the touchscreen on the **Bambu Lab X1** printer, navigate to the file (either on the SD card/USB or in the printer’s internal storage if uploaded wirelessly).
 •	Select the file and press **“Start”** to begin printing.
@@ -159,6 +165,7 @@ Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of th
 &nbsp;
 
 ### Step 8: Post-Processing
+
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 
 •	Removing supports
@@ -177,25 +184,33 @@ By following these steps, you’ll be able to efficiently import an STL file int
 The **Prusa MK3** is a reliable and popular 3D printer, and in combination with the slicing software **PrusaSlicer**, constitutes a professional tool to prepare 3D models for printing. In this tutorial, we present the same previously detailed printing instructions but this time adapted for using a PRUSA printer and **PrusaSlicer**, i.e. importing the .stl file, configuring the print settings, and exporting the g-code file required for the **Prusa MK3** printer.
 
 ***What You’ll Need:***
+
 <br />
+
 	**PrusaSlicer:** You can download the latest version from the official PRUSA website here: www.prusa3d.com.
 	**STL files:** The 3D model files you want to print. For example, all printable components of the H-Hope harvester can be found on the H-Hope repository at LINK HERE. 
 	**Prusa MK3 Printer:** The 3D printer where the model will be printed.
 	**Filament:** For this project, PETG is ideal for waterproof models due to its durability and resistance to water and moisture. However, PLA or ABS can also be used for different needs, though they may compromise longevity compared to PETG.
 
 ### Step 1: Install and Open PrusaSlicer
+
 <br />
+
 - **Download and install PrusaSlicer:** Visit the official PRUSA website and download the appropriate version of **PrusaSlicer** for your operating system (Windows, macOS, or Linux).
 - **Follow the standard installation procedure** for your operating system.
 - **Launch PrusaSlicer:** Open the software by clicking the **PrusaSlicer** icon after installation.
 
 ### Step 2: Import Your STL File
+
 <br />
+
 - **Open your STL file:** Click on the **“Add...”** button at the top left of the toolbar or drag-and-drop your .stl file into the **PrusaSlicer** workspace. You can import multiple parts and arrange them on the print bed if space allows.
 - **Inspect the model:** After importing, the model will appear on the virtual print bed. Use your mouse to rotate, zoom in/out, or pan around the model to ensure it has loaded correctly.
 
 ### Step 3: Prepare the Model for Printing
+
 <br />
+
 Once the STL file is imported, you can prepare the model by adjusting its orientation, scale, and position.
 - **Adjust orientation:** If the model isn't optimally oriented, select the model and use the **“Rotate”** tool. You can manually rotate the model or input precise angles for the X, Y, and Z axes. Alternatively, use the **“Place on face”** tool to align the model for the best print orientation.
 - **Scale the model (if necessary):** In most cases, models are already correctly scaled. However, if the model needs resizing, use the **“Scale”** tool, where you can scale it uniformly or adjust specific dimensions.
@@ -208,7 +223,9 @@ Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harveste
 </div>
   
 ### Step 4: Select the Print Settings
+
 <br />
+
 After orienting and positioning the model, you can configure the print settings for your **Prusa MK3 printer.**
 - **Choose the printer profile:** In **PrusaSlicer,** ensure the correct printer profile is selected **(Prusa MK3 or MK3S).** If it's not available, you can add it from the printer settings.
 - **Select the material/filament:** Choose the filament type you are using (PLA, PETG, ABS, etc.) under the “Filament” section. Prusa offers its own filaments, but compatible options are also available. Ensure that the correct filament profile is selected for optimal results.
@@ -220,19 +237,25 @@ After orienting and positioning the model, you can configure the print settings 
 - **Default settings:** PrusaSlicer offers pre-configured profiles for common filaments like PLA and PETG, which are generally suitable for most projects. However, you can customise them based on your needs.
 
 ### Step 5: Slice the Model
+
 <br />
+
 Once you have finalised your print settings, you can slice the model.
 - **Slice the model:** Click the **“Slice Now”** button in the lower-right corner of the interface. PrusaSlicer will generate a G-code file based on the print settings you have configured.
 - **Preview the sliced model:** After slicing, use the preview mode to check the print path layer by layer. Ensure the supports and infill are correct, and the outer shell is well-defined.
 
 ### Step 6: Export the G-code for Printing
+
 <br />
+
 After confirming the sliced model and settings, the next step is to generate the G-code file for your **Prusa MK3** printer.
 - **Export the G-code:** Click the **“Export G-code”** button, and choose where to save the file on your computer. The file will have the extension .gcode, which the **Prusa MK3** will read.
 - **Transfer the G-code to the printer:** Copy the G-code file to a SD card and insert it into the printer. 
 
 ### Step 7: Start the Print on Prusa MK3
+
 <br />
+
 - **Prepare the printer:** Make sure the filament is loaded, and the print bed is clean.
 - **Start the print:** On the **Prusa MK3** display menu, navigate to the G-code file on the SD card using the printer’s knob and press it on **“Print from SD card”**. Select the file and press the know to start the process.
 - **Monitor the first layer:** It's always a good practice to watch the first layer of the print to ensure proper adhesion and smooth extrusion.
@@ -244,7 +267,9 @@ Figure 6: Harvester parts printed on a PRUSA MK3 printer.
 </div>
 
 ### Step 8: Post-Processing
+
 <br />
+
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 •	Removing supports
 •	Smoothing or sanding
