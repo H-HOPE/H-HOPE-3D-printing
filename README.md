@@ -87,7 +87,7 @@ The right configuration might vary for printer to printer. Typically, the defaul
 <div align="center">
 <img src="/res/Filaments_parameters.jpg" alt="drawing" width="700"/>
 <br />
-_Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (right)._
+Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (right).
 </div>
 <br />
 
@@ -127,19 +127,19 @@ Once you are happy with the sliced model and settings, you can generate the file
 <div align="center">
 <img src="/res/Bambu_screen.jpg" alt="drawing" width="700"/>
   <br />
-_Figure 2: Bambu Lab X1 printer display. The screen presents relevant information about the printing progress of some of H-Hope harvester parts._
+Figure 2: Bambu Lab X1 printer display. The screen presents relevant information about the printing progress of some of H-Hope harvester parts.
 </div>
 &nbsp;
 <div align="center">
 <img src="/res/Bambu_printing.jpg" alt="drawing" width="700"/>
   <br />
-_Figure 3: H-Hope harvester parts are being printed on a Bambu Lab X1 Carbon printer. The internal structure of the parts is visible. Note that the parts have filament supports which must be removed afterwards._
+Figure 3: H-Hope harvester parts are being printed on a Bambu Lab X1 Carbon printer. The internal structure of the parts is visible. Note that the parts have filament supports which must be removed afterwards.
 </div>
 &nbsp;
 <div align="center">
 <img src="/res/Printed_parts.jpg" alt="drawing" width="700"/>
   <br />
-_Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of the induction coils and the fittings of the movable parts are shown._
+Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of the induction coils and the fittings of the movable parts are shown.
 </div>
 &nbsp;
 ***Step 8: Post-Processing***
@@ -185,7 +185,7 @@ Once the STL file is imported, you can prepare the model by adjusting its orient
 <div align="center">
 <img src="/res/Prusaslicer.jpg" alt="drawing" width="700"/>
   <br />
-_Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harvester parts being prepared for printing._
+Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harvester parts being prepared for printing.
 </div>
   
 **Step 4: Select the Print Settings**
@@ -221,7 +221,7 @@ After confirming the sliced model and settings, the next step is to generate the
 <div align="center">
 <img src="/res/Prusa.jpg" alt="drawing" width="700"/>
   <br />
-_Figure 6: Harvester parts printed on a PRUSA MK3 printer._
+Figure 6: Harvester parts printed on a PRUSA MK3 printer.
 </div>
 
 **Step 8: Post-Processing**
@@ -239,7 +239,7 @@ The digital model files are in the widely used ".stl" format, ensuring compatibi
 <div align="center">
 <img src="/res/Stl_Parts_figure.jpg" alt="drawing" width="700"/>
   <br />
-_Figure 7: List of 3D printable component necessary to build the H-Hope harvester. (a) Bearing housing. (b) Coil holder. (c) Connection rod bearing end. (d) Connection rod end. (e) Connector cover. (f) Flywheel magnet side. (g) Flywheel without magnets. (h) Spring arm connector. (i) Spring connector. (j) H-Hope harvester assembly_
+Figure 7: List of 3D printable component necessary to build the H-Hope harvester. (a) Bearing housing. (b) Coil holder. (c) Connection rod bearing end. (d) Connection rod end. (e) Connector cover. (f) Flywheel magnet side. (g) Flywheel without magnets. (h) Spring arm connector. (i) Spring connector. (j) H-Hope harvester assembly
 </div>
 
 &nbsp;
