@@ -16,7 +16,8 @@ At the end of this tutorial, you will find a complete list of the files required
 - [Importing an STL File into Bambu Studio and Generating a 3D Print File,](#bambu)
 - [Importing an STL File into PrusaSlicer and Generating a 3D Print File,](#prusa)
 - [Part List for 3D Printing the H-Hope Project Energy Harvester](#parts)
-
+<br />
+<br />
 
 ## Importing an STL File into Bambu Studio and Generating a 3D Print File<a name="bambu"></a>
 
@@ -25,6 +26,7 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 <br />
 <br />
 ### What You’ll Need:
+
 <br />
 <br />
 •	**Bambu Studio** (the slicer software from _Bambu Lab_). You can download it from: https://bambulab.com/en/download/studio.<br />
@@ -34,6 +36,7 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 &nbsp;
 
 ### Step 1: Install and Open Bambu Studio
+
 <br />
 - **Download and install Bambu Studio:**
 •	Visit the **official Bambu Lab website** (https://www.bambulab.com/) and **download Bambu Studio** for your operating system (Windows/macOS/Linux).
