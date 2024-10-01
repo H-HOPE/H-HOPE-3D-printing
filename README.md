@@ -39,8 +39,8 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 ### Step 1: Install and Open Bambu Studio
 
 - **Download and install Bambu Studio:**
-- Visit the **official Bambu Lab website** (https://www.bambulab.com/) and **download Bambu Studio** for your operating system (Windows/macOS/Linux).
--	**Install** the software following the standard installation procedure for your operating system.
+   - Visit the **official Bambu Lab website** (https://www.bambulab.com/) and **download Bambu Studio** for your operating system (Windows/macOS/Linux).
+   -	**Install** the software following the standard installation procedure for your operating system.
 - **Launch Bambu Studio:** Open the program by clicking on the Bambu Studio icon after installation.
 <br />
 
