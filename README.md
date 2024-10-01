@@ -47,11 +47,11 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 ### Step 2: Import Your STL File
 
 - **Open your STL file**:
-•	In Bambu Studio, click on the cubic icon **“Add”** button located at the top left of the tool bar or simply drag-and-drop your .stl file into the workspace.
-•	If space on the printer plate allows, you can print multiple parts simultaneously. 
+  - In Bambu Studio, click on the cubic icon **“Add”** button located at the top left of the tool bar or simply drag-and-drop your .stl file into the workspace.
+  - If space on the printer plate allows, you can print multiple parts simultaneously. 
 - **Inspect the model:**
-•	After importing, you will see your model displayed on the virtual print bed.
-•	Use the mouse to rotate, zoom in/out, or pan around the model to ensure it has loaded properly.
+  - After importing, you will see your model displayed on the virtual print bed.
+  - Use the mouse to rotate, zoom in/out, or pan around the model to ensure it has loaded properly.
 
 
 <div align="center">
@@ -65,33 +65,33 @@ Figure 1: Bambu Studio software layout. The screen shot shows an example of one 
 
 Once the STL file is imported, you need to prepare it for slicing by adjusting its orientation, scale, and position.
 - **Adjust orientation:**
-•	Sometimes the model may import in a suboptimal orientation. To rotate the model:
-	Select the model, then use the **“rotate”** tool located in the middle of the toolbar.
-	Adjust the model's angles by clicking and dragging the rotation circles, or input precise values in the rotation boxes for each axis (X, Y, Z).
-	You can also simply use the **“auto orient”** tool or lay on face tool to place the part in the best printing configuration. 
+  - Sometimes the model may import in a suboptimal orientation. To rotate the model:
+    - Select the model, then use the **“rotate”** tool located in the middle of the toolbar.
+    - Adjust the model's angles by clicking and dragging the rotation circles, or input precise values in the rotation boxes for each axis (X, Y, Z).
+    - You can also simply use the **“auto orient”** tool or lay on face tool to place the part in the best printing configuration. 
 - **Scale the model** (if needed):
-•	The parts provided in H-Hope project are already scaled, thus this step is not needed. However, if the model needs to be resized for a tailored fabrication, use the **“scale”** tool also available in the left toolbar.
-•	You can scale uniformly or input specific dimensions for height, width, or depth.
+  - The parts provided in H-Hope project are already scaled, thus this step is not needed. However, if the model needs to be resized for a tailored fabrication, use the **“scale”** tool also available in the left toolbar.
+  - You can scale uniformly or input specific dimensions for height, width, or depth.
 - **Position the model on the print bed:**
-•	Ensure the model is sitting flat on the build plate.
-•	Use the move tool to centre or reposition the model on the virtual print bed.
-•	If multiple parts will be printed, you can automatically arrange them on the plate with the button **“Arrange all objects”**.
+  - Ensure the model is sitting flat on the build plate.
+  - Use the move tool to centre or reposition the model on the virtual print bed.
+  - If multiple parts will be printed, you can automatically arrange them on the plate with the button **“Arrange all objects”**.
 <br />
 
 ### Step 4: Select the Print Settings
 
 Now that the model is properly oriented and positioned, it's time to configure the print settings for your **Bambu Lab X1 printer**.
 - **Choose the printer profile:**
-•	At the top-right corner of Bambu Studio, ensure that your specific model of Bambu Lab **printer and nozzle size** is selected as the active printer profile. If it is not available: Click on **“Add a new printer”** and select the Bambu Lab model from the list of available printers.
+  - At the top-right corner of Bambu Studio, ensure that your specific model of Bambu Lab **printer and nozzle size** is selected as the active printer profile. If it is not available: Click on **“Add a new printer”** and select the Bambu Lab model from the list of available printers.
 - **Select the material/filament:**
-•	In the top-right section, under **Filament**, select the type of filament you're using (e.g., PLA, ABS, PETG, etc.). Bambu Lab offers its own filaments, but you can use compatible filaments by selecting the “Generic” filament or setting the appropriate settings provided by the filament vendor.
+  - In the top-right section, under **Filament**, select the type of filament you're using (e.g., PLA, ABS, PETG, etc.). Bambu Lab offers its own filaments, but you can use compatible filaments by selecting the “Generic” filament or setting the appropriate settings provided by the filament vendor.
 - **Configure slicing settings:**
-•	On the right panel, you’ll find the following slicing settings:
-	**Layer Height:** Choose a layer height for your print. Lower layer heights (e.g., 0.1 mm) provide finer detail but take longer, while higher layer heights (e.g., 0.28 mm) print faster but may have less detail.
-	**Infill Density:** Set the infill percentage. Common values range from 10% to 20% for general prints, with higher infill offering more strength at the cost of print time and material.
-	**Shell Thickness:** Adjust the number of outer perimeters. A thicker shell adds strength.
-  	**Supports:** Enable **auto supports** if your model has overhangs that need extra support during printing.
-	**Build Plate Adhesion:** You can enable a brim, raft, or skirt for better adhesion depending on the model’s footprint and material used.
+  - On the right panel, you’ll find the following slicing settings:
+    - **Layer Height:** Choose a layer height for your print. Lower layer heights (e.g., 0.1 mm) provide finer detail but take longer, while higher layer heights (e.g., 0.28 mm) print faster but may have less detail.
+    - **Infill Density:** Set the infill percentage. Common values range from 10% to 20% for general prints, with higher infill offering more strength at the cost of print time and material.
+    - **Shell Thickness:** Adjust the number of outer perimeters. A thicker shell adds strength.
+    - **Supports:** Enable **auto supports** if your model has overhangs that need extra support during printing.
+    - **Build Plate Adhesion:** You can enable a brim, raft, or skirt for better adhesion depending on the model’s footprint and material used.
 The right configuration might vary for printer to printer. Typically, the default settings are suitable for the kind of parts used in the H-Hope project. You can find specific settings for PETG and PLA in the table below
 
 <div align="center">
@@ -101,42 +101,40 @@ Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (
 </div>
 <br />
 
-	**Advanced Settings (optional):**
-
-•	If you are an experienced user, you can explore the **Advanced Settings** tab to fine-tune options such as speed, temperature, retraction settings, and more.
-•	You can also modify specific behaviours like bridging, cooling, and acceleration of the printer extruder.
+- **Advanced Settings (optional):**
+  - If you are an experienced user, you can explore the **Advanced Settings** tab to fine-tune options such as speed, temperature, retraction settings, and more.
+  - You can also modify specific behaviours like bridging, cooling, and acceleration of the printer extruder.
 <br />
 
 ### Step 5: Slice the Model
 
 Once the print settings are set, the next step is to slice the model.
-•	After making all your adjustments, click the **“Slice plate”** button located in the upper-right corner.
-•	Bambu Studio will now generate the **G-code file** based on the slicing settings you’ve chosen.
-•	After slicing is complete, the software will display relevant information as the estimated print time and filament usage.
+  - After making all your adjustments, click the **“Slice plate”** button located in the upper-right corner.
+  - Bambu Studio will now generate the **G-code file** based on the slicing settings you’ve chosen.
+  - After slicing is complete, the software will display relevant information as the estimated print time and filament usage.
 - **Preview the sliced model:**
-•	After slicing, you can use the **“preview”** tool (right vertical slide bar) to view each layer and see the print path.
-•	Ensure that the supports and infill look correct, and verify that the outer shell is well defined.
+  - After slicing, you can use the **“preview”** tool (right vertical slide bar) to view each layer and see the print path.
+  - Ensure that the supports and infill look correct, and verify that the outer shell is well defined.
 <br />
 
 ### Step 6: Export the G-code for Printing
 
-
 Once you are happy with the sliced model and settings, you can generate the file for the **Bambu Lab X1 printer**.
 **Export the G-code as a file:**
-•	In the upper-right corner, select the option and **“Export plate sliced file”** and you’ll be prompted to save the G-code file.
-•	Choose a location on your computer to save the file. This file will have the extension “.gcode.3mf”
+  - In the upper-right corner, select the option and **“Export plate sliced file”** and you’ll be prompted to save the G-code file.
+  - Choose a location on your computer to save the file. This file will have the extension “.gcode.3mf”
 **Transfer the file to the printer:**
-•	If you’re using an SD card or USB drive, copy the G-code file to the card or drive and insert it into the Bambu Lab printer.
-•	If your printer is connected to the network (Wi-Fi/LAN), you can upload the G-code file directly from Bambu Studio by selecting the on **“Print plate”** or **“Send”** option instead of manually transferring the file.
+  - If you’re using an SD card or USB drive, copy the G-code file to the card or drive and insert it into the Bambu Lab printer.
+  - If your printer is connected to the network (Wi-Fi/LAN), you can upload the G-code file directly from Bambu Studio by selecting the on **“Print plate”** or **“Send”** option instead of manually transferring the file.
 <br />
 
 ### Step 7: Start the Print on Bambu Lab X1
 
-•	Ensure that the **Bambu Lab X1** printer is properly set up, with the filament loaded and the print bed cleaned.
-•	Using the touchscreen on the **Bambu Lab X1** printer, navigate to the file (either on the SD card/USB or in the printer’s internal storage if uploaded wirelessly).
-•	Select the file and press **“Start”** to begin printing.
-•	It is a good practice to always watch the first layer of your print to ensure proper adhesion and that the filament is extruding smoothly.
-•	The **Bambu Lab X1** has built-in sensors and a camera for remote monitoring through the Bambu Handy app, allowing you to check on the print’s progress remotely.
+  - Ensure that the **Bambu Lab X1** printer is properly set up, with the filament loaded and the print bed cleaned.
+  - Using the touchscreen on the **Bambu Lab X1** printer, navigate to the file (either on the SD card/USB or in the printer’s internal storage if uploaded wirelessly).
+  - Select the file and press **“Start”** to begin printing.
+  - It is a good practice to always watch the first layer of your print to ensure proper adhesion and that the filament is extruding smoothly.
+  - The **Bambu Lab X1** has built-in sensors and a camera for remote monitoring through the Bambu Handy app, allowing you to check on the print’s progress remotely.
 &nbsp;
 
 <div align="center">
