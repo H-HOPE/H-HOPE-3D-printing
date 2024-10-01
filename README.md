@@ -39,7 +39,7 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 
 &nbsp;
 &nbsp;
-add image 1
+<img src="/res/Example_Bambu.jpg" alt="drawing" width="250"/>
 _Figure 1: Bambu Studio software layout. The screen shot shows an example of one of the H-Hope harvester parts being prepared for printing_
 &nbsp;
 &nbsp;
@@ -129,69 +129,69 @@ By following these steps, you’ll be able to efficiently import an STL file int
 
 The **Prusa MK3** is a reliable and popular 3D printer, and in combination with the slicing software **PrusaSlicer**, constitutes a professional tool to prepare 3D models for printing. In this tutorial, we present the same previously detailed printing instructions but this time adapted for using a PRUSA printer and **PrusaSlicer**, i.e. importing the .stl file, configuring the print settings, and exporting the g-code file required for the **Prusa MK3** printer.
 
-What You’ll Need:
-	PrusaSlicer: You can download the latest version from the official PRUSA website here: www.prusa3d.com.
-	STL files: The 3D model files you want to print. For example, all printable components of the H-Hope harvester can be found on the H-Hope repository at LINK HERE. 
-	Prusa MK3 Printer: The 3D printer where the model will be printed.
-	Filament: For this project, PETG is ideal for waterproof models due to its durability and resistance to water and moisture. However, PLA or ABS can also be used for different needs, though they may compromise longevity compared to PETG.
+***What You’ll Need:***
+	**PrusaSlicer:** You can download the latest version from the official PRUSA website here: www.prusa3d.com.
+	**STL files:** The 3D model files you want to print. For example, all printable components of the H-Hope harvester can be found on the H-Hope repository at LINK HERE. 
+	**Prusa MK3 Printer:** The 3D printer where the model will be printed.
+	**Filament:** For this project, PETG is ideal for waterproof models due to its durability and resistance to water and moisture. However, PLA or ABS can also be used for different needs, though they may compromise longevity compared to PETG.
 
-Step 1: Install and Open PrusaSlicer
-- Download and install PrusaSlicer: Visit the official PRUSA website and download the appropriate version of PrusaSlicer for your operating system (Windows, macOS, or Linux).
-- Follow the standard installation procedure for your operating system.
-- Launch PrusaSlicer: Open the software by clicking the PrusaSlicer icon after installation.
+***Step 1: Install and Open PrusaSlicer***
+- **Download and install PrusaSlicer:** Visit the official PRUSA website and download the appropriate version of **PrusaSlicer** for your operating system (Windows, macOS, or Linux).
+- **Follow the standard installation procedure** for your operating system.
+- **Launch PrusaSlicer:** Open the software by clicking the **PrusaSlicer** icon after installation.
 
-Step 2: Import Your STL File
-- Open your STL file: Click on the “Add...” button at the top left of the toolbar or drag-and-drop your .stl file into the PrusaSlicer workspace. You can import multiple parts and arrange them on the print bed if space allows.
-- Inspect the model: After importing, the model will appear on the virtual print bed. Use your mouse to rotate, zoom in/out, or pan around the model to ensure it has loaded correctly.
+***Step 2: Import Your STL File***
+- **Open your STL file:** Click on the **“Add...”** button at the top left of the toolbar or drag-and-drop your .stl file into the **PrusaSlicer** workspace. You can import multiple parts and arrange them on the print bed if space allows.
+- **Inspect the model:** After importing, the model will appear on the virtual print bed. Use your mouse to rotate, zoom in/out, or pan around the model to ensure it has loaded correctly.
 
-Step 3: Prepare the Model for Printing
+**Step 3: Prepare the Model for Printing**
 Once the STL file is imported, you can prepare the model by adjusting its orientation, scale, and position.
-- Adjust orientation: If the model isn't optimally oriented, select the model and use the “Rotate” tool. You can manually rotate the model or input precise angles for the X, Y, and Z axes. Alternatively, use the “Place on face” tool to align the model for the best print orientation.
-- Scale the model (if necessary): In most cases, models are already correctly scaled. However, if the model needs resizing, use the “Scale” tool, where you can scale it uniformly or adjust specific dimensions.
-- Position the model on the print bed: Ensure that the model is placed flat on the build plate. Use the “Move” tool to centre or reposition the model. For printing multiple parts, you can use the “Arrange” tool to automatically place all objects on the print bed efficiently.
+- **Adjust orientation:** If the model isn't optimally oriented, select the model and use the **“Rotate”** tool. You can manually rotate the model or input precise angles for the X, Y, and Z axes. Alternatively, use the **“Place on face”** tool to align the model for the best print orientation.
+- **Scale the model (if necessary):** In most cases, models are already correctly scaled. However, if the model needs resizing, use the **“Scale”** tool, where you can scale it uniformly or adjust specific dimensions.
+- **Position the model on the print bed:** Ensure that the model is placed flat on the build plate. Use the **“Move”** tool to centre or reposition the model. For printing multiple parts, you can use the **“Arrange”** tool to automatically place all objects on the print bed efficiently.
  
-Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harvester parts being prepared for printing.
+_Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harvester parts being prepared for printing._
 
-Step 4: Select the Print Settings
-After orienting and positioning the model, you can configure the print settings for your Prusa MK3 printer.
-- Choose the printer profile: In PrusaSlicer, ensure the correct printer profile is selected (Prusa MK3 or MK3S). If it's not available, you can add it from the printer settings.
-- Select the material/filament: Choose the filament type you are using (PLA, PETG, ABS, etc.) under the “Filament” section. Prusa offers its own filaments, but compatible options are also available. Ensure that the correct filament profile is selected for optimal results.
-- Configure slicing settings: On the right-hand panel, you will find various slicing settings:
-	Layer Height: A smaller layer height (e.g., 0.1 mm) will provide finer detail, while a larger one (e.g., 0.2 mm) will print faster.
-	Infill Density: Set the percentage of infill. For general prints, 15-20% infill is typical, but higher percentages can add more strength.
-	Supports: Enable supports if your model has overhangs that require additional support during printing.
-	Brim: Select this options for better bed adhesion depending on the model and filament.
-- Default settings: PrusaSlicer offers pre-configured profiles for common filaments like PLA and PETG, which are generally suitable for most projects. However, you can customise them based on your needs.
+**Step 4: Select the Print Settings**
+After orienting and positioning the model, you can configure the print settings for your **Prusa MK3 printer.**
+- **Choose the printer profile:** In **PrusaSlicer,** ensure the correct printer profile is selected **(Prusa MK3 or MK3S).** If it's not available, you can add it from the printer settings.
+- **Select the material/filament:** Choose the filament type you are using (PLA, PETG, ABS, etc.) under the “Filament” section. Prusa offers its own filaments, but compatible options are also available. Ensure that the correct filament profile is selected for optimal results.
+- **Configure slicing settings:** On the right-hand panel, you will find various slicing settings:
+	**Layer Height:** A smaller layer height (e.g., 0.1 mm) will provide finer detail, while a larger one (e.g., 0.2 mm) will print faster.
+	**Infill Density:** Set the percentage of infill. For general prints, 15-20% infill is typical, but higher percentages can add more strength.
+	**Supports:** Enable supports if your model has overhangs that require additional support during printing.
+  	**Brim:** Select this options for better bed adhesion depending on the model and filament.
+- **Default settings:** PrusaSlicer offers pre-configured profiles for common filaments like PLA and PETG, which are generally suitable for most projects. However, you can customise them based on your needs.
 
-Step 5: Slice the Model
+**Step 5: Slice the Model**
 Once you have finalised your print settings, you can slice the model.
-- Slice the model: Click the “Slice Now” button in the lower-right corner of the interface. PrusaSlicer will generate a G-code file based on the print settings you have configured.
-- Preview the sliced model: After slicing, use the preview mode to check the print path layer by layer. Ensure the supports and infill are correct, and the outer shell is well-defined.
+- **Slice the model:** Click the **“Slice Now”** button in the lower-right corner of the interface. PrusaSlicer will generate a G-code file based on the print settings you have configured.
+- **Preview the sliced model:** After slicing, use the preview mode to check the print path layer by layer. Ensure the supports and infill are correct, and the outer shell is well-defined.
 
-Step 6: Export the G-code for Printing
-After confirming the sliced model and settings, the next step is to generate the G-code file for your Prusa MK3 printer.
-- Export the G-code: Click the “Export G-code” button, and choose where to save the file on your computer. The file will have the extension .gcode, which the Prusa MK3 will read.
-- Transfer the G-code to the printer: Copy the G-code file to a SD card and insert it into the printer. 
+**Step 6: Export the G-code for Printing**
+After confirming the sliced model and settings, the next step is to generate the G-code file for your **Prusa MK3** printer.
+- **Export the G-code:** Click the **“Export G-code”** button, and choose where to save the file on your computer. The file will have the extension .gcode, which the **Prusa MK3** will read.
+- **Transfer the G-code to the printer:** Copy the G-code file to a SD card and insert it into the printer. 
 
-Step 7: Start the Print on Prusa MK3
-- Prepare the printer: Make sure the filament is loaded, and the print bed is clean.
-- Start the print: On the Prusa MK3 display menu, navigate to the G-code file on the SD card using the printer’s knob and press it on “Print from SD card”. Select the file and press the know to start the process.
-- Monitor the first layer: It's always a good practice to watch the first layer of the print to ensure proper adhesion and smooth extrusion.
+**Step 7: Start the Print on Prusa MK3**
+- **Prepare the printer:** Make sure the filament is loaded, and the print bed is clean.
+- **Start the print:** On the **Prusa MK3** display menu, navigate to the G-code file on the SD card using the printer’s knob and press it on **“Print from SD card”**. Select the file and press the know to start the process.
+- **Monitor the first layer:** It's always a good practice to watch the first layer of the print to ensure proper adhesion and smooth extrusion.
  
-Figure 6: Harvester parts printed on a PRUSA MK3 printer.
+_Figure 6: Harvester parts printed on a PRUSA MK3 printer._
 
-Step 8: Post-Processing
+**Step 8: Post-Processing**
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 •	Removing supports
 •	Smoothing or sanding
 •	Adding treads for the screws.
 
-Part List for 3D Printing the H-Hope Project Energy Harvester
+***Part List for 3D Printing the H-Hope Project Energy Harvester***
 
-The energy harvester developed as part of the H-Hope project comprises nine distinct printable components. Each component is meticulously designed to optimise simplicity and functionality in energy harvesting applications. The corresponding CAD (Computer-Aided Design) models for these parts are readily available in the project's data hub, which can be accessed at the following link: PLACE LINK HERE.
-The digital model files are in the widely used ".stl" format, ensuring compatibility with various slicer software. This format facilitates straightforward importation, as detailed in the previous tutorial. By incorporating these resources into their 3D printing workflow, users can integrate the parts with other metallic components to build a working prototype of the energy harvester easily, without requiring specific technical knowledge. A detailed list of the remaining parts and the assembly procedure, which includes a video tutorial, can be found at the following link: PLACE LINK HERE.
+The energy harvester developed as part of the H-Hope project comprises nine distinct printable components. Each component is meticulously designed to optimise simplicity and functionality in energy harvesting applications. The corresponding CAD (Computer-Aided Design) models for these parts are readily available in the project's data hub, which can be accessed at the following link: ***PLACE LINK HERE***.
+The digital model files are in the widely used ".stl" format, ensuring compatibility with various slicer software. This format facilitates straightforward importation, as detailed in the previous tutorial. By incorporating these resources into their 3D printing workflow, users can integrate the parts with other metallic components to build a working prototype of the energy harvester easily, without requiring specific technical knowledge. A detailed list of the remaining parts and the assembly procedure, which includes a video tutorial, can be found at the following link: ***PLACE LINK HERE.***
  
-Figure 7: List of 3D printable component necessary to build the H-Hope harvester. (a) Bearing housing. (b) Coil holder. (c) Connection rod bearing end. (d) Connection rod end. (e) Connector cover. (f) Flywheel magnet side. (g) Flywheel without magnets. (h) Spring arm connector. (i) Spring connector. (j) H-Hope harvester assembly
+_Figure 7: List of 3D printable component necessary to build the H-Hope harvester. (a) Bearing housing. (b) Coil holder. (c) Connection rod bearing end. (d) Connection rod end. (e) Connector cover. (f) Flywheel magnet side. (g) Flywheel without magnets. (h) Spring arm connector. (i) Spring connector. (j) H-Hope harvester assembly_
 
 
 
