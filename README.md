@@ -9,7 +9,8 @@ The innovative technology for energy harvesting from hidden hydro sources, devel
 &nbsp;
 
 For the purpose of this guide, we will demonstrate the process using two professional-grade filament printers:  **a Bambu Lab X1 Carbon** printer and **a PRUSA MK3 printer**. Each printer comes along with a slicer software developed by the same company, i.e. **Bambu Studio** and **PRUSA Slicer**, respectively. However, it is important to emphasise that the same procedures can be followed with any 3D printer, including more affordable models. Moreover, both **Bambu Studio** and **PRUSA Slicer** supports slicing for a wide range of printer models from various vendors. This makes the software highly versatile and strongly recommended for use with different 3D printers. It is worth noting that both **PrusaSlicer** and **Bambu Studio** are quite similar in terms of functionality. They share many of the same symbols for their tools and also use similar terminology, making it easy to transition between the two programs. This compatibility allows users to switch from one software to the other smoothly, without needing to learn a completely new interface or workflow.  
-At the end of this tutorial, you will find a complete list of the files required for printing each component of the energy harvester. These files are also accessible in the **H-Hope Data Hub**, which can be found at the following site: **PLACE LINK HERE.**
+At the end of this tutorial, you will find a complete list of the files required for printing each component of the energy harvester. These files are also accessible in the **H-Hope Data Hub**, which can be found at the following site: **PLACE LINK HERE.** 
+<a href="https://github.com/H-HOPE/Data-Hub"> **H-HOPE Data Hub**</a>
 
 ## Table of content
 
