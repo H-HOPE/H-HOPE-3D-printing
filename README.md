@@ -39,9 +39,11 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 
 &nbsp;
 &nbsp;
+<div align="center">
 <img src="/res/Example_Bambu.jpg" alt="drawing" width="250"/>
 &nbsp;
 _Figure 1: Bambu Studio software layout. The screen shot shows an example of one of the H-Hope harvester parts being prepared for printing_
+</div>
 &nbsp;
 &nbsp;
 
