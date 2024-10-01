@@ -19,6 +19,7 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 <br />
 ***What You’ll Need:***
 <br />
+<br />
 •	**Bambu Studio** (the slicer software from _Bambu Lab_). You can download it from: https://bambulab.com/en/download/studio.<br />
 •	**STL files** (the 3D model you want to print). You can find the stl files corresponding to all the printable components of the H-Hope harvester below in this page. <br />
 •	**Bambu Lab X1 printer**<br />
@@ -45,7 +46,7 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 
 <div align="center">
 <img src="/res/Example_Bambu.jpg" alt="drawing" width="700"/>
-&nbsp;
+<br />
 _Figure 1: Bambu Studio software layout. The screen shot shows an example of one of the H-Hope harvester parts being prepared for printing_
 </div>
 &nbsp;
@@ -84,11 +85,12 @@ The right configuration might vary for printer to printer. Typically, the defaul
 &nbsp;
 <div align="center">
 <img src="/res/Filaments_parameters.jpg" alt="drawing" width="700"/>
-&nbsp;
+<br />
 _Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (right)._
 </div>
-&nbsp;
-- **Advanced Settings (optional):**
+<br />
+
+	**Advanced Settings (optional):**
 •	If you are an experienced user, you can explore the **Advanced Settings** tab to fine-tune options such as speed, temperature, retraction settings, and more.
 •	You can also modify specific behaviours like bridging, cooling, and acceleration of the printer extruder.
 
