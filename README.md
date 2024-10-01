@@ -224,8 +224,6 @@ Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harveste
   
 ### Step 4: Select the Print Settings
 
-<br />
-
 After orienting and positioning the model, you can configure the print settings for your **Prusa MK3 printer.**
 - **Choose the printer profile:** In **PrusaSlicer,** ensure the correct printer profile is selected **(Prusa MK3 or MK3S).** If it's not available, you can add it from the printer settings.
 - **Select the material/filament:** Choose the filament type you are using (PLA, PETG, ABS, etc.) under the “Filament” section. Prusa offers its own filaments, but compatible options are also available. Ensure that the correct filament profile is selected for optimal results.
@@ -238,23 +236,17 @@ After orienting and positioning the model, you can configure the print settings 
 
 ### Step 5: Slice the Model
 
-<br />
-
 Once you have finalised your print settings, you can slice the model.
 - **Slice the model:** Click the **“Slice Now”** button in the lower-right corner of the interface. PrusaSlicer will generate a G-code file based on the print settings you have configured.
 - **Preview the sliced model:** After slicing, use the preview mode to check the print path layer by layer. Ensure the supports and infill are correct, and the outer shell is well-defined.
 
 ### Step 6: Export the G-code for Printing
 
-<br />
-
 After confirming the sliced model and settings, the next step is to generate the G-code file for your **Prusa MK3** printer.
 - **Export the G-code:** Click the **“Export G-code”** button, and choose where to save the file on your computer. The file will have the extension .gcode, which the **Prusa MK3** will read.
 - **Transfer the G-code to the printer:** Copy the G-code file to a SD card and insert it into the printer. 
 
 ### Step 7: Start the Print on Prusa MK3
-
-<br />
 
 - **Prepare the printer:** Make sure the filament is loaded, and the print bed is clean.
 - **Start the print:** On the **Prusa MK3** display menu, navigate to the G-code file on the SD card using the printer’s knob and press it on **“Print from SD card”**. Select the file and press the know to start the process.
@@ -265,10 +257,9 @@ After confirming the sliced model and settings, the next step is to generate the
   <br />
 Figure 6: Harvester parts printed on a PRUSA MK3 printer.
 </div>
+<br />
 
 ### Step 8: Post-Processing
-
-<br />
 
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 •	Removing supports
