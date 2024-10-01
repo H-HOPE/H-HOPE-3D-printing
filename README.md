@@ -15,10 +15,9 @@ At the end of this tutorial, you will find a complete list of the files required
 &nbsp;
 
 The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using the **Bambu Studio** slicer allows you to prepare 3D models for printing efficiently. In this tutorial, we'll walk through the process of importing an STL file into Bambu Studio, configuring your print settings, and exporting the G-code file needed to print the object on a **Bambu Lab X1** printer.
-&nbsp;
-&nbsp;
+<br />
 ***What You’ll Need:***
-&nbsp;
+<br />
 •	**Bambu Studio** (the slicer software from _Bambu Lab_). You can download it from: https://bambulab.com/en/download/studio.
 •	**STL files** (the 3D model you want to print). You can find the stl files corresponding to all the printable components of the H-Hope harvester below in this page. 
 •	**Bambu Lab X1 printer**
