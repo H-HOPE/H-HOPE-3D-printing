@@ -11,13 +11,20 @@ The innovative technology for energy harvesting from hidden hydro sources, devel
 For the purpose of this guide, we will demonstrate the process using two professional-grade filament printers:  **a Bambu Lab X1 Carbon** printer and **a PRUSA MK3 printer**. Each printer comes along with a slicer software developed by the same company, i.e. **Bambu Studio** and **PRUSA Slicer**, respectively. However, it is important to emphasise that the same procedures can be followed with any 3D printer, including more affordable models. Moreover, both **Bambu Studio** and **PRUSA Slicer** supports slicing for a wide range of printer models from various vendors. This makes the software highly versatile and strongly recommended for use with different 3D printers. It is worth noting that both **PrusaSlicer** and **Bambu Studio** are quite similar in terms of functionality. They share many of the same symbols for their tools and also use similar terminology, making it easy to transition between the two programs. This compatibility allows users to switch from one software to the other smoothly, without needing to learn a completely new interface or workflow.  
 At the end of this tutorial, you will find a complete list of the files required for printing each component of the energy harvester. These files are also accessible in the **H-Hope Data Hub**, which can be found at the following site: **PLACE LINK HERE.**
 
-***Importing an STL File into Bambu Studio and Generating a 3D Print File*** 
+## Table of content
+
+- [Importing an STL File into Bambu Studio and Generating a 3D Print File,](#bambu)
+- [Importing an STL File into PrusaSlicer and Generating a 3D Print File,](#prusa)
+- [Part List for 3D Printing the H-Hope Project Energy Harvester](#parts)
+
+
+## Importing an STL File into Bambu Studio and Generating a 3D Print File<a name="bambu"> 
 &nbsp;
 
 The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using the **Bambu Studio** slicer allows you to prepare 3D models for printing efficiently. In this tutorial, we'll walk through the process of importing an STL file into Bambu Studio, configuring your print settings, and exporting the G-code file needed to print the object on a **Bambu Lab X1** printer.
 <br />
 <br />
-***What You’ll Need:***
+### What You’ll Need:
 <br />
 <br />
 •	**Bambu Studio** (the slicer software from _Bambu Lab_). You can download it from: https://bambulab.com/en/download/studio.<br />
@@ -26,14 +33,14 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 •	**Bambu Lab filament** or other compatible filament: For this specific project, **PETG** (Polyethylene terephthalate glycol-modified) is an ideal choice when waterproofing is essential for the 3D-printed model. This filament provides excellent resistance to both water and moisture, creating an effective barrier, and it is also relatively easy to print with. Its durability and moisture-resistant characteristics make PETG particularly suitable for applications where exposure to water is a primary concern. Alternatively, filaments made from other common materials, such as **PLA** or **ABS**, can be used for this project. However, it is important to note that the overall durability and longevity of the harvester may be compromised when compared to using PETG. <br />
 &nbsp;
 
-***Step 1: Install and Open Bambu Studio***
+### Step 1: Install and Open Bambu Studio
 <br />
 - **Download and install Bambu Studio:**
 •	Visit the **official Bambu Lab website** (https://www.bambulab.com/) and **download Bambu Studio** for your operating system (Windows/macOS/Linux).
 •	**Install** the software following the standard installation procedure for your operating system.
 - **Launch Bambu Studio:** Open the program by clicking on the Bambu Studio icon after installation.
 
-***Step 2: Import Your STL File***
+### Step 2: Import Your STL File
 <br />
 - **Open your STL file**:
 •	In Bambu Studio, click on the cubic icon **“Add”** button located at the top left of the tool bar or simply drag-and-drop your .stl file into the workspace.
@@ -54,7 +61,7 @@ Figure 1: Bambu Studio software layout. The screen shot shows an example of one 
 &nbsp;
 &nbsp;
 
-***Step 3: Prepare the Model for Printing***
+### Step 3: Prepare the Model for Printing
 <br />
 Once the STL file is imported, you need to prepare it for slicing by adjusting its orientation, scale, and position.
 - **Adjust orientation:**
@@ -69,7 +76,8 @@ Once the STL file is imported, you need to prepare it for slicing by adjusting i
 •	Ensure the model is sitting flat on the build plate.
 •	Use the move tool to centre or reposition the model on the virtual print bed.
 •	If multiple parts will be printed, you can automatically arrange them on the plate with the button **“Arrange all objects”**.
-**Step 4: Select the Print Settings**
+### Step 4: Select the Print Settings
+<br />
 Now that the model is properly oriented and positioned, it's time to configure the print settings for your **Bambu Lab X1 printer**.
 - **Choose the printer profile:**
 •	At the top-right corner of Bambu Studio, ensure that your specific model of Bambu Lab **printer and nozzle size** is selected as the active printer profile. If it is not available: Click on **“Add a new printer”** and select the Bambu Lab model from the list of available printers.
@@ -95,7 +103,7 @@ Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (
 •	If you are an experienced user, you can explore the **Advanced Settings** tab to fine-tune options such as speed, temperature, retraction settings, and more.
 •	You can also modify specific behaviours like bridging, cooling, and acceleration of the printer extruder.
 
-***Step 5: Slice the Model***
+### Step 5: Slice the Model
 <br />
 Once the print settings are set, the next step is to slice the model.
 •	After making all your adjustments, click the **“Slice plate”** button located in the upper-right corner.
@@ -105,7 +113,7 @@ Once the print settings are set, the next step is to slice the model.
 •	After slicing, you can use the **“preview”** tool (right vertical slide bar) to view each layer and see the print path.
 •	Ensure that the supports and infill look correct, and verify that the outer shell is well defined.
 
-***Step 6: Export the G-code for Printing***
+### Step 6: Export the G-code for Printing
 <br />
 Once you are happy with the sliced model and settings, you can generate the file for the **Bambu Lab X1 printer**.
 **Export the G-code as a file:**
@@ -115,7 +123,7 @@ Once you are happy with the sliced model and settings, you can generate the file
 •	If you’re using an SD card or USB drive, copy the G-code file to the card or drive and insert it into the Bambu Lab printer.
 •	If your printer is connected to the network (Wi-Fi/LAN), you can upload the G-code file directly from Bambu Studio by selecting the on **“Print plate”** or **“Send”** option instead of manually transferring the file.
 
-***Step 7: Start the Print on Bambu Lab X1***
+### Step 7: Start the Print on Bambu Lab X1
 <br />
 •	Ensure that the **Bambu Lab X1** printer is properly set up, with the filament loaded and the print bed cleaned.
 •	Using the touchscreen on the **Bambu Lab X1** printer, navigate to the file (either on the SD card/USB or in the printer’s internal storage if uploaded wirelessly).
@@ -143,7 +151,7 @@ Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of th
 </div>
 &nbsp;
 
-***Step 8: Post-Processing***
+### Step 8: Post-Processing
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 
 •	Removing supports
@@ -157,7 +165,7 @@ By following these steps, you’ll be able to efficiently import an STL file int
 
 &nbsp;
 
-***Importing an STL File into PrusaSlicer and Generating a 3D Print File***
+Importing an STL File into PrusaSlicer and Generating a 3D Print File<a name="prusa">
 
 The **Prusa MK3** is a reliable and popular 3D printer, and in combination with the slicing software **PrusaSlicer**, constitutes a professional tool to prepare 3D models for printing. In this tutorial, we present the same previously detailed printing instructions but this time adapted for using a PRUSA printer and **PrusaSlicer**, i.e. importing the .stl file, configuring the print settings, and exporting the g-code file required for the **Prusa MK3** printer.
 
@@ -168,18 +176,18 @@ The **Prusa MK3** is a reliable and popular 3D printer, and in combination with 
 	**Prusa MK3 Printer:** The 3D printer where the model will be printed.
 	**Filament:** For this project, PETG is ideal for waterproof models due to its durability and resistance to water and moisture. However, PLA or ABS can also be used for different needs, though they may compromise longevity compared to PETG.
 
-***Step 1: Install and Open PrusaSlicer***
+### Step 1: Install and Open PrusaSlicer
 <br />
 - **Download and install PrusaSlicer:** Visit the official PRUSA website and download the appropriate version of **PrusaSlicer** for your operating system (Windows, macOS, or Linux).
 - **Follow the standard installation procedure** for your operating system.
 - **Launch PrusaSlicer:** Open the software by clicking the **PrusaSlicer** icon after installation.
 
-***Step 2: Import Your STL File***
+### Step 2: Import Your STL File
 <br />
 - **Open your STL file:** Click on the **“Add...”** button at the top left of the toolbar or drag-and-drop your .stl file into the **PrusaSlicer** workspace. You can import multiple parts and arrange them on the print bed if space allows.
 - **Inspect the model:** After importing, the model will appear on the virtual print bed. Use your mouse to rotate, zoom in/out, or pan around the model to ensure it has loaded correctly.
 
-**Step 3: Prepare the Model for Printing**
+### Step 3: Prepare the Model for Printing
 <br />
 Once the STL file is imported, you can prepare the model by adjusting its orientation, scale, and position.
 - **Adjust orientation:** If the model isn't optimally oriented, select the model and use the **“Rotate”** tool. You can manually rotate the model or input precise angles for the X, Y, and Z axes. Alternatively, use the **“Place on face”** tool to align the model for the best print orientation.
@@ -192,7 +200,7 @@ Once the STL file is imported, you can prepare the model by adjusting its orient
 Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harvester parts being prepared for printing.
 </div>
   
-**Step 4: Select the Print Settings**
+### Step 4: Select the Print Settings
 <br />
 After orienting and positioning the model, you can configure the print settings for your **Prusa MK3 printer.**
 - **Choose the printer profile:** In **PrusaSlicer,** ensure the correct printer profile is selected **(Prusa MK3 or MK3S).** If it's not available, you can add it from the printer settings.
@@ -204,19 +212,19 @@ After orienting and positioning the model, you can configure the print settings 
   	**Brim:** Select this options for better bed adhesion depending on the model and filament.
 - **Default settings:** PrusaSlicer offers pre-configured profiles for common filaments like PLA and PETG, which are generally suitable for most projects. However, you can customise them based on your needs.
 
-**Step 5: Slice the Model**
+### Step 5: Slice the Model
 <br />
 Once you have finalised your print settings, you can slice the model.
 - **Slice the model:** Click the **“Slice Now”** button in the lower-right corner of the interface. PrusaSlicer will generate a G-code file based on the print settings you have configured.
 - **Preview the sliced model:** After slicing, use the preview mode to check the print path layer by layer. Ensure the supports and infill are correct, and the outer shell is well-defined.
 
-**Step 6: Export the G-code for Printing**
+### Step 6: Export the G-code for Printing
 <br />
 After confirming the sliced model and settings, the next step is to generate the G-code file for your **Prusa MK3** printer.
 - **Export the G-code:** Click the **“Export G-code”** button, and choose where to save the file on your computer. The file will have the extension .gcode, which the **Prusa MK3** will read.
 - **Transfer the G-code to the printer:** Copy the G-code file to a SD card and insert it into the printer. 
 
-**Step 7: Start the Print on Prusa MK3**
+### Step 7: Start the Print on Prusa MK3
 <br />
 - **Prepare the printer:** Make sure the filament is loaded, and the print bed is clean.
 - **Start the print:** On the **Prusa MK3** display menu, navigate to the G-code file on the SD card using the printer’s knob and press it on **“Print from SD card”**. Select the file and press the know to start the process.
@@ -228,14 +236,14 @@ After confirming the sliced model and settings, the next step is to generate the
 Figure 6: Harvester parts printed on a PRUSA MK3 printer.
 </div>
 
-**Step 8: Post-Processing**
+### Step 8: Post-Processing
 <br />
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 •	Removing supports
 •	Smoothing or sanding
 •	Adding treads for the screws.
 
-***Part List for 3D Printing the H-Hope Project Energy Harvester***
+## Part List for 3D Printing the H-Hope Project Energy Harvester<a name="parts">
 
 The energy harvester developed as part of the H-Hope project comprises nine distinct printable components. Each component is meticulously designed to optimise simplicity and functionality in energy harvesting applications. The corresponding CAD (Computer-Aided Design) models for these parts are readily available in the project's data hub, which can be accessed at the following link: ***PLACE LINK HERE***.
 The digital model files are in the widely used ".stl" format, ensuring compatibility with various slicer software. This format facilitates straightforward importation, as detailed in the previous tutorial. By incorporating these resources into their 3D printing workflow, users can integrate the parts with other metallic components to build a working prototype of the energy harvester easily, without requiring specific technical knowledge. A detailed list of the remaining parts and the assembly procedure, which includes a video tutorial, can be found at the following link: ***PLACE LINK HERE.***
