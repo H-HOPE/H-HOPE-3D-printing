@@ -18,7 +18,7 @@ At the end of this tutorial, you will find a complete list of the files required
 - [Part List for 3D Printing the H-Hope Project Energy Harvester](#parts)
 
 
-## Importing an STL File into Bambu Studio and Generating a 3D Print File<a name="bambu"> 
+## Importing an STL File into Bambu Studio and Generating a 3D Print File<a name="bambu"></a> 
 &nbsp;
 
 The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using the **Bambu Studio** slicer allows you to prepare 3D models for printing efficiently. In this tutorial, we'll walk through the process of importing an STL file into Bambu Studio, configuring your print settings, and exporting the G-code file needed to print the object on a **Bambu Lab X1** printer.
@@ -165,7 +165,7 @@ By following these steps, you’ll be able to efficiently import an STL file int
 
 &nbsp;
 
-Importing an STL File into PrusaSlicer and Generating a 3D Print File<a name="prusa">
+## Importing an STL File into PrusaSlicer and Generating a 3D Print File<a name="prusa"></a> 
 
 The **Prusa MK3** is a reliable and popular 3D printer, and in combination with the slicing software **PrusaSlicer**, constitutes a professional tool to prepare 3D models for printing. In this tutorial, we present the same previously detailed printing instructions but this time adapted for using a PRUSA printer and **PrusaSlicer**, i.e. importing the .stl file, configuring the print settings, and exporting the g-code file required for the **Prusa MK3** printer.
 
@@ -243,7 +243,7 @@ Once the print is complete, remove the print from the bed and proceed with any n
 •	Smoothing or sanding
 •	Adding treads for the screws.
 
-## Part List for 3D Printing the H-Hope Project Energy Harvester<a name="parts">
+## Part List for 3D Printing the H-Hope Project Energy Harvester<a name="parts"></a> 
 
 The energy harvester developed as part of the H-Hope project comprises nine distinct printable components. Each component is meticulously designed to optimise simplicity and functionality in energy harvesting applications. The corresponding CAD (Computer-Aided Design) models for these parts are readily available in the project's data hub, which can be accessed at the following link: ***PLACE LINK HERE***.
 The digital model files are in the widely used ".stl" format, ensuring compatibility with various slicer software. This format facilitates straightforward importation, as detailed in the previous tutorial. By incorporating these resources into their 3D printing workflow, users can integrate the parts with other metallic components to build a working prototype of the energy harvester easily, without requiring specific technical knowledge. A detailed list of the remaining parts and the assembly procedure, which includes a video tutorial, can be found at the following link: ***PLACE LINK HERE.***
