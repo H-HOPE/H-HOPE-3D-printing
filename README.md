@@ -12,13 +12,13 @@ For the purpose of this guide, we will demonstrate the process using two profess
 
 At the end of this tutorial, you will find a complete list of the files required for printing each component of the energy harvester. These files are also accessible in the **H-Hope Data Hub**, which can be found at the following site: 
 <a href="https://github.com/H-HOPE/Data-Hub"> **H-HOPE Data Hub**</a>
+<br />
 
 ## Table of content
 
 - [Importing an STL File into Bambu Studio and Generating a 3D Print File,](#bambu)
 - [Importing an STL File into PrusaSlicer and Generating a 3D Print File,](#prusa)
 - [Part List for 3D Printing the H-Hope Project Energy Harvester](#parts)
-<br />
 <br />
 
 ## Importing an STL File into Bambu Studio and Generating a 3D Print File<a name="bambu"></a>
