@@ -145,8 +145,11 @@ Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of th
 
 ***Step 8: Post-Processing***
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
+
 •	Removing supports
+
 •	Smoothing or sanding
+
 •	Adding treads for the screws.
 
 By following these steps, you’ll be able to efficiently import an STL file into Bambu Studio, configure your print settings, and generate the G-code needed for a successful print on your **Bambu Lab X1 printer**. 
