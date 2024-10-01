@@ -49,7 +49,7 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 <div align="center">
 <img src="/res/Example_Bambu.jpg" alt="drawing" width="700"/>
 <br />
-*Figure 1: Bambu Studio software layout. The screen shot shows an example of one of the H-Hope harvester parts being prepared for printing*
+Figure 1: Bambu Studio software layout. The screen shot shows an example of one of the H-Hope harvester parts being prepared for printing
 </div>
 &nbsp;
 &nbsp;
@@ -142,6 +142,7 @@ Figure 3: H-Hope harvester parts are being printed on a Bambu Lab X1 Carbon prin
 Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of the induction coils and the fittings of the movable parts are shown.
 </div>
 &nbsp;
+
 ***Step 8: Post-Processing***
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 •	Removing supports
