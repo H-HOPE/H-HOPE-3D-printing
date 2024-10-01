@@ -37,22 +37,22 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 ### Step 1: Install and Open Bambu Studio
 
 <br />
+
 - **Download and install Bambu Studio:**
 •	Visit the **official Bambu Lab website** (https://www.bambulab.com/) and **download Bambu Studio** for your operating system (Windows/macOS/Linux).
 •	**Install** the software following the standard installation procedure for your operating system.
 - **Launch Bambu Studio:** Open the program by clicking on the Bambu Studio icon after installation.
 
 ### Step 2: Import Your STL File
+
 <br />
+
 - **Open your STL file**:
 •	In Bambu Studio, click on the cubic icon **“Add”** button located at the top left of the tool bar or simply drag-and-drop your .stl file into the workspace.
 •	If space on the printer plate allows, you can print multiple parts simultaneously. 
 - **Inspect the model:**
 •	After importing, you will see your model displayed on the virtual print bed.
 •	Use the mouse to rotate, zoom in/out, or pan around the model to ensure it has loaded properly.
-
-&nbsp;
-&nbsp;
 
 
 <div align="center">
@@ -64,7 +64,9 @@ Figure 1: Bambu Studio software layout. The screen shot shows an example of one 
 &nbsp;
 
 ### Step 3: Prepare the Model for Printing
+
 <br />
+
 Once the STL file is imported, you need to prepare it for slicing by adjusting its orientation, scale, and position.
 - **Adjust orientation:**
 •	Sometimes the model may import in a suboptimal orientation. To rotate the model:
@@ -79,7 +81,9 @@ Once the STL file is imported, you need to prepare it for slicing by adjusting i
 •	Use the move tool to centre or reposition the model on the virtual print bed.
 •	If multiple parts will be printed, you can automatically arrange them on the plate with the button **“Arrange all objects”**.
 ### Step 4: Select the Print Settings
+
 <br />
+
 Now that the model is properly oriented and positioned, it's time to configure the print settings for your **Bambu Lab X1 printer**.
 - **Choose the printer profile:**
 •	At the top-right corner of Bambu Studio, ensure that your specific model of Bambu Lab **printer and nozzle size** is selected as the active printer profile. If it is not available: Click on **“Add a new printer”** and select the Bambu Lab model from the list of available printers.
@@ -102,6 +106,7 @@ Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (
 <br />
 
 	**Advanced Settings (optional):**
+
 •	If you are an experienced user, you can explore the **Advanced Settings** tab to fine-tune options such as speed, temperature, retraction settings, and more.
 •	You can also modify specific behaviours like bridging, cooling, and acceleration of the printer extruder.
 
