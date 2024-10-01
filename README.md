@@ -39,8 +39,10 @@ The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using t
 
 &nbsp;
 &nbsp;
+
+
 <div align="center">
-<img src="/res/Example_Bambu.jpg" alt="drawing" width="250"/>
+<img src="/res/Example_Bambu.jpg" alt="drawing" width="700"/>
 &nbsp;
 _Figure 1: Bambu Studio software layout. The screen shot shows an example of one of the H-Hope harvester parts being prepared for printing_
 </div>
@@ -78,8 +80,11 @@ The right configuration might vary for printer to printer. Typically, the defaul
 
 
 &nbsp;
-
+<div align="center">
+<img src="/res/Filaments_parameters.jpg" alt="drawing" width="700"/>
+&nbsp;
 _Table 1: Typical printing settings for generic filaments of PETG (left) or PLA (right)._
+</div>
 &nbsp;
 - **Advanced Settings (optional):**
 •	If you are an experienced user, you can explore the **Advanced Settings** tab to fine-tune options such as speed, temperature, retraction settings, and more.
@@ -110,12 +115,21 @@ Once you are happy with the sliced model and settings, you can generate the file
 •	It is a good practice to always watch the first layer of your print to ensure proper adhesion and that the filament is extruding smoothly.
 •	The **Bambu Lab X1** has built-in sensors and a camera for remote monitoring through the Bambu Handy app, allowing you to check on the print’s progress remotely.
 &nbsp;
-_Figure 2: Bambu Lab X1 printer display. The screen presents relevant information about the printing progress of some of H-Hope harvester parts._
 
- &nbsp;
+<div align="center">
+<img src="/res/Bambu_screen.jpg" alt="drawing" width="700"/>
+_Figure 2: Bambu Lab X1 printer display. The screen presents relevant information about the printing progress of some of H-Hope harvester parts._
+</div>
+&nbsp;
+<div align="center">
+<img src="/res/Bambu_printing.jpg" alt="drawing" width="700"/>
 _Figure 3: H-Hope harvester parts are being printed on a Bambu Lab X1 Carbon printer. The internal structure of the parts is visible. Note that the parts have filament supports which must be removed afterwards._
- &nbsp;
+</div>
+&nbsp;
+<div align="center">
+<img src="/res/Printed_parts.jpg" alt="drawing" width="700"/>
 _Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of the induction coils and the fittings of the movable parts are shown._
+</div>
 &nbsp;
 ***Step 8: Post-Processing***
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
@@ -152,9 +166,12 @@ Once the STL file is imported, you can prepare the model by adjusting its orient
 - **Adjust orientation:** If the model isn't optimally oriented, select the model and use the **“Rotate”** tool. You can manually rotate the model or input precise angles for the X, Y, and Z axes. Alternatively, use the **“Place on face”** tool to align the model for the best print orientation.
 - **Scale the model (if necessary):** In most cases, models are already correctly scaled. However, if the model needs resizing, use the **“Scale”** tool, where you can scale it uniformly or adjust specific dimensions.
 - **Position the model on the print bed:** Ensure that the model is placed flat on the build plate. Use the **“Move”** tool to centre or reposition the model. For printing multiple parts, you can use the **“Arrange”** tool to automatically place all objects on the print bed efficiently.
- 
+&nbsp;
+<div align="center">
+<img src="/res/Prusaslicer.jpg" alt="drawing" width="700"/>
 _Figure 5: PrusaSlicer software layout. The screen shot shows the H-Hope harvester parts being prepared for printing._
-
+</div>
+  
 **Step 4: Select the Print Settings**
 After orienting and positioning the model, you can configure the print settings for your **Prusa MK3 printer.**
 - **Choose the printer profile:** In **PrusaSlicer,** ensure the correct printer profile is selected **(Prusa MK3 or MK3S).** If it's not available, you can add it from the printer settings.
@@ -180,9 +197,11 @@ After confirming the sliced model and settings, the next step is to generate the
 - **Prepare the printer:** Make sure the filament is loaded, and the print bed is clean.
 - **Start the print:** On the **Prusa MK3** display menu, navigate to the G-code file on the SD card using the printer’s knob and press it on **“Print from SD card”**. Select the file and press the know to start the process.
 - **Monitor the first layer:** It's always a good practice to watch the first layer of the print to ensure proper adhesion and smooth extrusion.
- 
+&nbsp;
+<div align="center">
+<img src="/res/Prusa.jpg" alt="drawing" width="700"/>
 _Figure 6: Harvester parts printed on a PRUSA MK3 printer._
-
+</div>
 **Step 8: Post-Processing**
 Once the print is complete, remove the print from the bed and proceed with any necessary post-processing tasks such as:
 •	Removing supports
@@ -193,15 +212,12 @@ Once the print is complete, remove the print from the bed and proceed with any n
 
 The energy harvester developed as part of the H-Hope project comprises nine distinct printable components. Each component is meticulously designed to optimise simplicity and functionality in energy harvesting applications. The corresponding CAD (Computer-Aided Design) models for these parts are readily available in the project's data hub, which can be accessed at the following link: ***PLACE LINK HERE***.
 The digital model files are in the widely used ".stl" format, ensuring compatibility with various slicer software. This format facilitates straightforward importation, as detailed in the previous tutorial. By incorporating these resources into their 3D printing workflow, users can integrate the parts with other metallic components to build a working prototype of the energy harvester easily, without requiring specific technical knowledge. A detailed list of the remaining parts and the assembly procedure, which includes a video tutorial, can be found at the following link: ***PLACE LINK HERE.***
- 
+&nbsp;
+<div align="center">
+<img src="/res/Stl_Parts_figure.jpg" alt="drawing" width="700"/>
 _Figure 7: List of 3D printable component necessary to build the H-Hope harvester. (a) Bearing housing. (b) Coil holder. (c) Connection rod bearing end. (d) Connection rod end. (e) Connector cover. (f) Flywheel magnet side. (g) Flywheel without magnets. (h) Spring arm connector. (i) Spring connector. (j) H-Hope harvester assembly_
+</div>
 
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 &nbsp;
 &nbsp;
 
