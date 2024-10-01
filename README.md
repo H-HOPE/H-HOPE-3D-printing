@@ -18,8 +18,8 @@ At the end of this tutorial, you will find a complete list of the files required
 - [Part List for 3D Printing the H-Hope Project Energy Harvester](#parts)
 
 
-## Importing an STL File into Bambu Studio and Generating a 3D Print File<a name="bambu"></a> 
-&nbsp;
+## Importing an STL File into Bambu Studio and Generating a 3D Print File<a name="bambu"></a>
+
 
 The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using the **Bambu Studio** slicer allows you to prepare 3D models for printing efficiently. In this tutorial, we'll walk through the process of importing an STL file into Bambu Studio, configuring your print settings, and exporting the G-code file needed to print the object on a **Bambu Lab X1** printer.
 <br />
