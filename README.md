@@ -16,12 +16,13 @@ At the end of this tutorial, you will find a complete list of the files required
 
 The **Bambu Lab X1** printer is a versatile and powerful 3D printer, and using the **Bambu Studio** slicer allows you to prepare 3D models for printing efficiently. In this tutorial, we'll walk through the process of importing an STL file into Bambu Studio, configuring your print settings, and exporting the G-code file needed to print the object on a **Bambu Lab X1** printer.
 <br />
+<br />
 ***What You’ll Need:***
 <br />
-•	**Bambu Studio** (the slicer software from _Bambu Lab_). You can download it from: https://bambulab.com/en/download/studio.
-•	**STL files** (the 3D model you want to print). You can find the stl files corresponding to all the printable components of the H-Hope harvester below in this page. 
-•	**Bambu Lab X1 printer**
-•	**Bambu Lab filament** or other compatible filament: For this specific project, **PETG** (Polyethylene terephthalate glycol-modified) is an ideal choice when waterproofing is essential for the 3D-printed model. This filament provides excellent resistance to both water and moisture, creating an effective barrier, and it is also relatively easy to print with. Its durability and moisture-resistant characteristics make PETG particularly suitable for applications where exposure to water is a primary concern. Alternatively, filaments made from other common materials, such as **PLA** or **ABS**, can be used for this project. However, it is important to note that the overall durability and longevity of the harvester may be compromised when compared to using PETG. 
+•	**Bambu Studio** (the slicer software from _Bambu Lab_). You can download it from: https://bambulab.com/en/download/studio.<br />
+•	**STL files** (the 3D model you want to print). You can find the stl files corresponding to all the printable components of the H-Hope harvester below in this page. <br />
+•	**Bambu Lab X1 printer**<br />
+•	**Bambu Lab filament** or other compatible filament: For this specific project, **PETG** (Polyethylene terephthalate glycol-modified) is an ideal choice when waterproofing is essential for the 3D-printed model. This filament provides excellent resistance to both water and moisture, creating an effective barrier, and it is also relatively easy to print with. Its durability and moisture-resistant characteristics make PETG particularly suitable for applications where exposure to water is a primary concern. Alternatively, filaments made from other common materials, such as **PLA** or **ABS**, can be used for this project. However, it is important to note that the overall durability and longevity of the harvester may be compromised when compared to using PETG. <br />
 &nbsp;
 
 ***Step 1: Install and Open Bambu Studio***
