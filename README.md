@@ -157,7 +157,7 @@ Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of th
 <br />
 <div align="center">
 [![Timelapse video of the H-HOPE DIY generator 3D print](https://i9.ytimg.com/vi_webp/j71O5QZEREo/mq1.webp?sqp=COSDtLgG-oaymwEmCMACELQB8quKqQMa8AEB-AGOCYAC0AWKAgwIABABGFUgZShfMA8=&rs=AOn4CLAYxYLkNHbC8ArO-9AKythzT0qZdg)](https://youtu.be/j71O5QZEREo)
-  <br />
+<br />
 Video 1: Timelapse video of the H-HOPE DIY generator 3D print.
 </div>
 <br />
