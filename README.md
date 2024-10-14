@@ -155,6 +155,12 @@ Figure 3: H-Hope harvester parts are being printed on a Bambu Lab X1 Carbon prin
 Figure 4: Resulting printed H-Hope harvester components. Here, the fitting of the induction coils and the fittings of the movable parts are shown.
 </div>
 <br />
+<div align="center">
+[![3D print timelapse](https://i9.ytimg.com/vi_webp/j71O5QZEREo/mq1.webp?sqp=COSDtLgG-oaymwEmCMACELQB8quKqQMa8AEB-AGOCYAC0AWKAgwIABABGFUgZShfMA8=&rs=AOn4CLAYxYLkNHbC8ArO-9AKythzT0qZdg)](https://youtu.be/j71O5QZEREo)
+  <br />
+Video 1: Timelapse video of the H-HOPE DIY generator 3D print.
+</div>
+<br />
 
 ### Step 8: Post-Processing
 
