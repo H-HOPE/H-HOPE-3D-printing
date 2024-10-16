@@ -224,7 +224,7 @@ After orienting and positioning the model, you can configure the print settings 
     - **Brim:** Select this options for better bed adhesion depending on the model and filament.
   - **Default settings:** PrusaSlicer offers pre-configured profiles for common filaments like PLA and PETG, which are generally suitable for most projects. However, you can customise them based on your needs.
 <div align="center">
-<img src="/res/Prusa_materials.JPG" alt="drawing" width="700"/>
+<img src="/res/Prusa_materials.JPG" alt="drawing" width="1000"/>
 <br />
 Table 2: Typical printing settings for generic filaments of PETG (left) or PLA (right).
 </div>
