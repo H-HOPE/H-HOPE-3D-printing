@@ -177,7 +177,8 @@ By following these steps, you’ll be able to efficiently import an STL file int
 
 The **Prusa MK3** is a reliable and popular 3D printer, and in combination with the slicing software **PrusaSlicer**, constitutes a professional tool to prepare 3D models for printing. In this tutorial, we present the same previously detailed printing instructions but this time adapted for using a PRUSA printer and **PrusaSlicer**, i.e. importing the .stl file, configuring the print settings, and exporting the g-code file required for the **Prusa MK3** printer.
 <br />
-###What You’ll Need:
+
+### What You’ll Need:
 
   - **PrusaSlicer:** You can download the latest version from the official PRUSA website here: www.prusa3d.com.
   - **STL files:** The 3D model files you want to print. For example, all the printable components of the H-Hope harvester below in this page. 
