@@ -180,7 +180,7 @@ The **Prusa MK3** is a reliable and popular 3D printer, and in combination with 
 ***What You’ll Need:***
 
   - **PrusaSlicer:** You can download the latest version from the official PRUSA website here: www.prusa3d.com.
-  - **STL files:** The 3D model files you want to print. For example, all printable components of the H-Hope harvester can be found on the H-Hope repository at LINK HERE. 
+  - **STL files:** The 3D model files you want to print. For example, all the printable components of the H-Hope harvester below in this page. 
   - **Prusa MK3 Printer:** The 3D printer where the model will be printed.
   - **Filament:** For this project, PETG is ideal for waterproof models due to its durability and resistance to water and moisture. However, PLA or ABS can also be used for different needs, though they may compromise longevity compared to PETG.
 
