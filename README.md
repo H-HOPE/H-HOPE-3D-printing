@@ -223,6 +223,11 @@ After orienting and positioning the model, you can configure the print settings 
     - **Supports:** Enable supports if your model has overhangs that require additional support during printing.
     - **Brim:** Select this options for better bed adhesion depending on the model and filament.
   - **Default settings:** PrusaSlicer offers pre-configured profiles for common filaments like PLA and PETG, which are generally suitable for most projects. However, you can customise them based on your needs.
+<div align="center">
+<img src="/res/Prusa_materials.JPG" alt="drawing" width="700"/>
+<br />
+Table 2: Typical printing settings for generic filaments of PETG (left) or PLA (right).
+</div>
 <br />
 
 ### Step 5: Slice the Model
